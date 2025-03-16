@@ -1,7 +1,7 @@
 name: Keep Active
 on:
   schedule:
-    - cron: '0 0 * * *'  # 每天 UTC 时间 0 点运行
+    - cron: '0 12 15 * *' # 每天 UTC 时间 0 点运行
   workflow_dispatch:     # 允许手动触发
 
 jobs:

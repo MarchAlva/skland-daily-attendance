@@ -1,3 +1,6 @@
-name = "skland-daily"  # 项目名称，自定义
-compatibility_date = "2025-08-06"  # 用当天日期
-main = "packages/core/dist/index.js"  # 核心入口文件路径
+# 必须修改这两个字段：
+name = "skland-daily-attendance"  # 匹配CI期望的名称
+compatibility_date = "2025-08-06"  # 使用部署当天的日期（当前为2025-08-06）
+
+# 保持入口正确：
+main = "packages/core/dist/index.js"

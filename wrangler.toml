@@ -1,0 +1,3 @@
+name = "skland-daily"  # 项目名称，自定义
+compatibility_date = "2025-08-07"  # 用当天日期
+main = "packages/core/dist/index.js"  # 核心入口文件路径
